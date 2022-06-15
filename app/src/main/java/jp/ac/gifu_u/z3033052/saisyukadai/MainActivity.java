@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button nextButton = findViewById(R.id.bt_next); //https://qiita.com/asura/items/ba522159ed4dd489c9d6 15~23行
+        Button nextButton = findViewById(R.id.bt_next); //https://akira-watson.com/android/activity-1.html 15~23行
         nextButton.setOnClickListener(v -> {
                 Intent intent = new Intent(getApplication(), SubActivity.class);
                 startActivity(intent);

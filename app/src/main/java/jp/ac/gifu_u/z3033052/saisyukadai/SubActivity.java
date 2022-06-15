@@ -13,7 +13,7 @@ public class SubActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
 
-        Button returnButton = findViewById(R.id.returnButton);//https://qiita.com/asura/items/ba522159ed4dd489c9d6 16~20
+        Button returnButton = findViewById(R.id.returnButton);//https://akira-watson.com/android/activity-1.html　16~20
 
         returnButton.setOnClickListener(v -> finish());
 
