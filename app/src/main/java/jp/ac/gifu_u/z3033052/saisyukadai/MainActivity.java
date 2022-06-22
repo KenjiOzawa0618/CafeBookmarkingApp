@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button nextButton = findViewById(R.id.bt_next); //https://akira-watson.com/android/activity-1.html 15~19行
         nextButton.setOnClickListener(v -> {
-                Intent intent = new Intent(getApplication(), SubActivity.class);
+                Intent intent = new Intent(getApplication(), Sub2Activitiy.class);
                 startActivity(intent);
         });
     }
