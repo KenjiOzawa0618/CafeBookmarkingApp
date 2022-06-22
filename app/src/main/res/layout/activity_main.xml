@@ -59,7 +59,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/gifuken"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
