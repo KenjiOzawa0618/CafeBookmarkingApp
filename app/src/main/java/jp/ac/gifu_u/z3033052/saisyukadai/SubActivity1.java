@@ -1,11 +1,13 @@
 package jp.ac.gifu_u.z3033052.saisyukadai;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.menu.MenuBuilder;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.ArrayAdapter;
@@ -35,10 +37,11 @@ public class SubActivity1 extends AppCompatActivity {
         // simple_list_item_1 はデフォルトで提供されているTextViewのみ持つレイアウトです。
         // 自作したLayoutを指定して複雑なリストも作成可能です。
         ArrayAdapter<Object> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        ListAdapter adapter1;
         listView1.setAdapter(adapter);
-        listView2.setAdapter(adapter);
-        listView3.setAdapter(adapter);
-        listView4.setAdapter(adapter);
+        //listView2.setAdapter(adapter);
+        //listView3.setAdapter(adapter);
+       // listView4.setAdapter(adapter);
 
         // 保存ボタンをタップ時の処理
         saveButton.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +76,7 @@ public class SubActivity1 extends AppCompatActivity {
                 }
 
                 // リストにメモ内容を反映します
+                MenuBuilder adapter1;
                 adapter.add(memo1);
                 adapter.add(memo2);
                 adapter.add(memo3);
