@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.363" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/gifu_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="岐阜市"
