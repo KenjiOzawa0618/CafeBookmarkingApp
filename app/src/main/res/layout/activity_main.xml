@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/nakatugawa_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="220dp"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.594" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/gero_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="下呂市"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/guzyo_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="郡上市"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="0.253" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/takayama_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="高山市"
@@ -99,7 +99,7 @@
         app:layout_constraintVertical_bias="0.594" />
 
     <Button
-        android:id="@+id/bt_next"
+        android:id="@+id/ogaki_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="大垣市"
@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.645" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/minokamo_next"
         android:layout_width="113dp"
         android:layout_height="50dp"
         android:text="美濃加茂市"

@@ -23,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplication(), SubActivity1.class);
             startActivity(intent);
         });
+
+        Button geroButton = findViewById(R.id.gero_next); //https://akira-watson.com/android/activity-1.html 15~19行
+        geroButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplication(), GeroActivity.class);
+            startActivity(intent);
+        });
     }
 }
