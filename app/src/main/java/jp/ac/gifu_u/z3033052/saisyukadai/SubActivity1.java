@@ -12,6 +12,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.ArrayAdapter;
 
+import java.util.Arrays;
+
 public class SubActivity1 extends AppCompatActivity {
 
     @Override
@@ -36,12 +38,14 @@ public class SubActivity1 extends AppCompatActivity {
         // ListViewに対してアイテムを動的に追加していく場合はadapterを利用します
         // simple_list_item_1 はデフォルトで提供されているTextViewのみ持つレイアウトです。
         // 自作したLayoutを指定して複雑なリストも作成可能です。
-        ArrayAdapter<Object> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
-        ListAdapter adapter1;
-        listView1.setAdapter(adapter);
-        //listView2.setAdapter(adapter);
-        //listView3.setAdapter(adapter);
-       // listView4.setAdapter(adapter);
+        ArrayAdapter<Object> adapter1 = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        ArrayAdapter<Object> adapter2 = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        ArrayAdapter<Object> adapter3 = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        ArrayAdapter<Object> adapter4 = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        listView1.setAdapter(adapter1);
+        listView2.setAdapter(adapter2);
+        listView3.setAdapter(adapter3);
+        listView4.setAdapter(adapter4);
 
         // 保存ボタンをタップ時の処理
         saveButton.setOnClickListener(new View.OnClickListener() {
@@ -76,11 +80,12 @@ public class SubActivity1 extends AppCompatActivity {
                 }
 
                 // リストにメモ内容を反映します
-                MenuBuilder adapter1;
-                adapter.add(memo1);
-                adapter.add(memo2);
-                adapter.add(memo3);
-                adapter.add(memo4);
+
+                    adapter1.add(memo1);
+                    adapter2.add(memo2);
+                    adapter3.add(memo3);
+                    adapter4.add(memo4);
+
 
                 // エディタはクリアします
                 editText1.setText("");
