@@ -67,28 +67,28 @@
             tools:ignore="ExtraText">
 
             <EditText
-                android:id="@+id/text1.1"
+                android:id="@+id/cafename"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:hint="カフェの名前入力"
                 android:textSize="15sp"/>
 
             <EditText
-                android:id="@+id/text1.2"
+                android:id="@+id/price"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:hint="値段入力"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/text1.3"
+                android:id="@+id/recommend"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:hint="おすすめ商品入力"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/text1.4"
+                android:id="@+id/check"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:hint="✓"
