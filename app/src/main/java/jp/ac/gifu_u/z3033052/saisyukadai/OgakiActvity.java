@@ -3,17 +3,11 @@ package jp.ac.gifu_u.z3033052.saisyukadai;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
-
 public class OgakiActvity extends AppCompatActivity {
-
     String[] cafe_list = { "cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9" };
     String[] cafe_save = { "cafe_save0","cafe_save1","cafe_save2","cafe_save3","cafe_save4","cafe_save5","cafe_save6","cafe_save7","cafe_save8","cafe_save9" };
     String[] price_list = {"cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9"};
@@ -29,16 +23,12 @@ public class OgakiActvity extends AppCompatActivity {
     int[] cafe_id = {R.id.cafename0,R.id.cafename1,R.id.cafename2,R.id.cafename3,R.id.cafename4,R.id.cafename5,R.id.cafename6,R.id.cafename7,R.id.cafename8,R.id.cafename9};
     int[] price_id = {R.id.price0,R.id.price1,R.id.price2,R.id.price3,R.id.price4,R.id.price5,R.id.price6,R.id.price7,R.id.price8,R.id.price9};
     int[] recommend_id = {R.id.recommend0,R.id.recommend1,R.id.recommend2,R.id.recommend3,R.id.recommend4,R.id.recommend5,R.id.recommend6,R.id.recommend7,R.id.recommend8,R.id.recommend9};
-    int[] check_id = {R.id.check0,R.id.check1,R.id.check2,R.id.check3,R.id.check4,R.id.check5,R.id.check6,R.id.check7,R.id.check8,R.id.check,R.id.check9};
+    int[] check_id = {R.id.check0,R.id.check1,R.id.check2,R.id.check3,R.id.check4,R.id.check5,R.id.check6,R.id.check7,R.id.check8,R.id.check9};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.avtvity_ogaki);
-
-//        ArrayList<EditText> cafe_editText = new ArrayList<>();
-//        for(int i=0;i<10;i++) {
-//            cafe_editText.add(findViewById(cafe_id[i]));
-//        }
 
         final EditText cafe_editText0 = findViewById(cafe_id[0]);
         final EditText cafe_editText1 = findViewById(cafe_id[1]);
@@ -112,12 +102,8 @@ public class OgakiActvity extends AppCompatActivity {
             ((TextView) findViewById(check_id[i])).setText(check_list[i]);
         }
 
-
         Button returnButton = findViewById(R.id.returnButton);//https://akira-watson.com/android/activity-1.html　16~17
         returnButton.setOnClickListener(v ->{
-//            for(int i=0;i<10;i++) {
-//                cafe_memo[i] = cafe_editText.get(i).getText().toString();
-//            }
             cafe_memo[0] = cafe_editText0.getText().toString();
             cafe_memo[1] = cafe_editText1.getText().toString();
             cafe_memo[2] = cafe_editText2.getText().toString();
@@ -161,6 +147,7 @@ public class OgakiActvity extends AppCompatActivity {
             check_memo[7] = check_editText7.getText().toString();
             check_memo[8] = check_editText8.getText().toString();
             check_memo[9] = check_editText9.getText().toString();
+
             // データの保存
             SharedPreferences.Editor editor = preferences.edit();
             for(int i=0;i<10;i++) {
@@ -170,14 +157,13 @@ public class OgakiActvity extends AppCompatActivity {
                 editor.putString( price_save[i], price_memo[i]);
             }
             for(int i=0;i<10;i++) {
-                editor.putString( price_save[i], price_memo[i]);
+                editor.putString( recommend_save[i], recommend_memo[i]);
             }
             for(int i=0;i<10;i++) {
-                editor.putString( price_save[i],price_memo[i]);
+                editor.putString( check_save[i],check_memo[i]);
             }
             editor.commit();
             finish();
         });
-
     }
 }
