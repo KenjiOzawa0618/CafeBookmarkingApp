@@ -34,28 +34,36 @@
                 android:layout_width="109dp"
                 android:layout_height="30dp"
                 android:text="CafeName"
-                android:textSize="15sp" />
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/text2"
                 android:layout_width="75dp"
                 android:layout_height="30dp"
                 android:text="  Price"
-                android:textSize="15sp" />
+                android:textColor="#9C27B0"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/text3"
                 android:layout_width="159dp"
                 android:layout_height="30dp"
                 android:text="  RecommendedMenu"
-                android:textSize="15sp" />
+                android:textColor="#9C27B0"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/text4"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
-                android:text="  Check"
-                android:textSize="15sp" />
+                android:text="  ✓"
+                android:textColor="#4CAF50"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
         </TableRow>
 

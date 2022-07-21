@@ -8,7 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class HidaActivity extends AppCompatActivity {
-
     String[] cafe_list = { "cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9" };//データ読み込み時の入力された文字の保存名　11~14
     String[] price_list = {"cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9"};
     String[] recommend_list = {"recommend_list0","recommend_list1","recommend_list2","recommend_list3","recommend_list4","recommend_list5","recommend_list6","recommend_list7","recommend_list8","recommend_list9"};

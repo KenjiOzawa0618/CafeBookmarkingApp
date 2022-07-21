@@ -11,18 +11,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="220dp"
+        android:backgroundTint="#52F436"
         android:text="中津川市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.649"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
+        app:layout_constraintVertical_bias="0.607" />
 
     <Button
         android:id="@+id/gero_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_purple"
         android:text="下呂市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -35,6 +37,7 @@
         android:id="@+id/guzyo_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
         android:text="郡上市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,25 +50,47 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="serif"
+        android:text="Gifu Cafe Map"
+        android:textColor="#FF5722"
+        android:textSize="50sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="※保存したい地域名を選択してください"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/gifuken"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <Button
         android:id="@+id/hida_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
         android:text="　飛騨市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,6 +103,7 @@
         android:id="@+id/takayama_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
         android:text="高山市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,6 +116,7 @@
         android:id="@+id/gifu_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
         android:text="岐阜市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -102,6 +129,7 @@
         android:id="@+id/ogaki_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:text="大垣市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,6 +142,7 @@
         android:id="@+id/minokamo_next"
         android:layout_width="113dp"
         android:layout_height="50dp"
+        android:backgroundTint="#CC005F"
         android:text="美濃加茂市"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
