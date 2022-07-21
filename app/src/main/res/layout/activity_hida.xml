@@ -16,9 +16,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938"
+        app:layout_constraintVertical_bias="0.906"
         tools:ignore="MissingConstraints" />
-
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -33,21 +32,21 @@
 
             <TextView
                 android:id="@+id/text1"
-                android:layout_width="wrap_content"
+                android:layout_width="109dp"
                 android:layout_height="30dp"
                 android:text="CafeName"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/text2"
-                android:layout_width="wrap_content"
+                android:layout_width="75dp"
                 android:layout_height="30dp"
                 android:text="  Price"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/text3"
-                android:layout_width="wrap_content"
+                android:layout_width="159dp"
                 android:layout_height="30dp"
                 android:text="  RecommendedMenu"
                 android:textSize="15sp" />
@@ -58,6 +57,7 @@
                 android:layout_height="30dp"
                 android:text="  Check"
                 android:textSize="15sp" />
+
         </TableRow>
 
 
@@ -68,28 +68,29 @@
             tools:ignore="ExtraText">
 
             <EditText
-                android:id="@+id/cafe_name"
-                android:layout_width="wrap_content"
+                android:id="@+id/cafename0"
+                android:layout_width="110dp"
                 android:layout_height="50dp"
                 android:hint="カフェの名前入力"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/price"
+                android:id="@+id/price0"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:hint="値段入力"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/recommend"
+                android:id="@+id/recommend0"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:hint="おすすめ商品入力"
                 android:textSize="15sp" />
 
+
             <EditText
-                android:id="@+id/check"
+                android:id="@+id/check0"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:hint="✓"
@@ -101,12 +102,33 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <EditText
+                android:id="@+id/cafename1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
 
+            <EditText
+                android:id="@+id/price1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
 
+            <EditText
+                android:id="@+id/recommend1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
 
-
-
-
+            <EditText
+                android:id="@+id/check1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
         </TableRow>
 
         <TableRow
@@ -114,12 +136,265 @@
             android:layout_height="match_parent">
 
 
+            <EditText
+                android:id="@+id/cafename2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
 
+            <EditText
+                android:id="@+id/price2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/cafename3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend8"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cafename9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="カフェの名前入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/price9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="値段入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/recommend9"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="おすすめ商品入力"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/check9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="✓"
+                android:textSize="15sp" />
+        </TableRow>
 
     </TableLayout>
 

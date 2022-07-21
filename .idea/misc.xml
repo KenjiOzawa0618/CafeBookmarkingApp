@@ -4,14 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout-v26/activity_gifu.xml" value="0.30416666666666664" />
-        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_gero.xml" value="0.152" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_gero.xml" value="0.16" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_gifu.xml" value="0.264" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_guzyo.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_hida.xml" value="0.264" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_minokamo.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_nakatugawa.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_ogaki.xml" value="0.264" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_ogaki1.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_sub.xml" value="0.22509057971014493" />
-        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/avtvity_ogaki.xml" value="0.4" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/activity_takayama.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/Kenji/AndroidStudioProjects/MyApplication5/app/src/main/res/layout/avtvity_ogaki.xml" value="0.264" />
       </map>
     </option>
   </component>

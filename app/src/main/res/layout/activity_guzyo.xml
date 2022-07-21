@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SubActivity1">
-
+    tools:context=".guzyoActivity">
     <Button
         android:id="@+id/returnButton"
         android:layout_width="wrap_content"
@@ -397,8 +396,4 @@
         </TableRow>
 
     </TableLayout>
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-

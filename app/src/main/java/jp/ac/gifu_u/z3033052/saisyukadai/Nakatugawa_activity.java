@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class GeroActivity extends AppCompatActivity {
+public class Nakatugawa_activity extends AppCompatActivity {
     String[] cafe_list = { "cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9" };//データ読み込み時の入力された文字の保存名　11~14
     String[] price_list = {"cafe_list0","cafe_list1","cafe_list2","cafe_list3","cafe_list4","cafe_list5","cafe_list6","cafe_list7","cafe_list8","cafe_list9"};
     String[] recommend_list = {"recommend_list0","recommend_list1","recommend_list2","recommend_list3","recommend_list4","recommend_list5","recommend_list6","recommend_list7","recommend_list8","recommend_list9"};
@@ -28,7 +28,7 @@ public class GeroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gero);
+        setContentView(R.layout.activity_nakatugawa);
 
         final EditText cafe_editText0 = findViewById(cafe_id[0]);//https://qiita.com/pico123/items/e0905350043a49dce871 33~75
         final EditText cafe_editText1 = findViewById(cafe_id[1]);//idに対応するEditTextの取得
@@ -75,7 +75,7 @@ public class GeroActivity extends AppCompatActivity {
         final EditText check_editText9 = findViewById(check_id[9]);
 
         // データの読込　https://hakoniwadesign.com/?p=10492　78~103
-        SharedPreferences preferences = getSharedPreferences("gero_data",MODE_PRIVATE);//保存したデータの名前とモードを渡す
+        SharedPreferences preferences = getSharedPreferences("nakatugawa_data",MODE_PRIVATE);//保存したデータの名前とモードを渡す
         for(int i=0;i<10;i++) {
             cafe_list[i] = preferences.getString(cafe_save[i], "");//listに保存した文字を代入
         }
@@ -167,5 +167,4 @@ public class GeroActivity extends AppCompatActivity {
             finish();//このActivityを閉じる操作
         });
     }
-
 }

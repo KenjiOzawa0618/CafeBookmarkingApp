@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.ac.gifu_u.z3033052.saisyukadai">
+    package="jp.ac.gifu_u.z3033052.saisyukadai" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication5">
+        android:theme="@style/Theme.MyApplication5" >
+        <activity
+            android:name=".TakayamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Nakatugawa_activity"
+            android:exported="false" />
+        <activity
+            android:name=".guzyoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MinokamoActivity"
+            android:exported="false" />
         <activity
             android:name=".OgakiActvity"
             android:exported="false" />
@@ -20,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
