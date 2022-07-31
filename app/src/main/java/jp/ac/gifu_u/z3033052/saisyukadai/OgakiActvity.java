@@ -164,6 +164,8 @@ public class OgakiActvity extends AppCompatActivity {
             }
             editor.commit();
 
+
+
             finish();//このActivityを閉じる操作
         });
     }
